@@ -1,1 +1,2 @@
-# Zadanie-informatyk
+# funkcja-projekt
+Szymon Pasieczny Andrzej Ozga 

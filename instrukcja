@@ -1,0 +1,35 @@
+Instrukcja
+a = int(input("podja liczbę dodatnią dla której funkcja ma zacząć rysować wykres i skończyć na przeciwnej"))
+
+1.	Odpowiada za pobranie liczby z klawiatury dla której program ma zacząć rysować program 
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+2.	Te dwa wiersze programu odpowiadają za pobranie biblioteki Malplotlib, która służy do rysowania wykresów w języku Python
+
+# Data for plotting
+x = np.arange( -a , a , 0.1)
+y = x*x
+
+3.	Odpowiada za policzenie wartości na osi y z wartości podanej na  klawiaturze
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+
+4.	Instrukcje w bibliotece Malplotlib
+
+ax.set(Xlabel='x', ylabel='y',
+       title='$funkcja.kwadratowa$')
+
+5.	te wiersze odpowiadają za podpisanie osi i tytułu wykresu 
+
+ax.grid()
+plt.show()
+
+6.	Instrukcje w bibliotece Malplotlib
+
+Jak uruchomić program?  
+1.	Uruchomić program 
+2.	Podać liczbę całkowitą dodatnią 
+3.	Czekać aż program narysuje funkcje 

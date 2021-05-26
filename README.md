@@ -1,3 +1,3 @@
-# funkcja-projekt
+# funkcja kwadratowa
 Jakub Sondej
 Mateusz Piszczek

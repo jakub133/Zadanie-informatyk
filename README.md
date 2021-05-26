@@ -1,2 +1,3 @@
 # funkcja-projekt
-Szymon Pasieczny Andrzej Ozga 
+Jakub Sondej
+Mateusz Piszczek

@@ -1,3 +1,2 @@
 # funkcja kwadratowa
-Jakub Sondej
-Mateusz Piszczek
+Jan Owsiany
